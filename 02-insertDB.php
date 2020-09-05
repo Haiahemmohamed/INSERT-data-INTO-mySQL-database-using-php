@@ -1,7 +1,7 @@
 <?php 
 
 	if (isset($_POST)) {
-		$pdo = new PDO("mysql:host=localhost;dbname=registration","root","mypassword");
+		$pdo = new PDO("mysql:host=localhost;dbname=registration","","");
 		$firstname = $_POST['firstname'];
 		$lastname = $_POST['lastname'];
 		$username = $_POST['username'];
